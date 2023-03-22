@@ -10,6 +10,7 @@ then
     SEARCHSTR=$2
 else
     echo "ERROR: Need 2 arguments!"
+    exit 1
 fi
 
 if [ -d "$FILESDIR" ]
